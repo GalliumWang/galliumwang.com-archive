@@ -8,7 +8,7 @@ layout: page
 </h1>
 
 <p class="lead">
-  I’m an interactive web developer, designer, and storyteller. <br class="hidden-phone"> Here's a taste of what I do →
+  I’m a Computer science student from Zhejiang University of Technology. <br class="hidden-phone"> Here's a taste of what I do →
 </p>
 
 {% assign sorted_posts = site.posts | sort: "tile.order" %}
@@ -58,75 +58,47 @@ layout: page
   {% endunless %}{% endunless %}{% endfor %}
 </tiles>
 
-<!-- <blogroll class="visible-phone">
-  <h2>Recent Posts</h2>
-  <br>
-  {% for post in site.posts %}{% unless post.hidden %}{% unless post.tile.order < 0 %}
-    <a href="{{ post.url }}" class="bg-{{ post.accent }}">
-      <h3>{{ post.title }}</h3>
-      <p class="metadata">
-        {% unless post.draft %}Published {{ post.date | date: "%B %-d, %Y" }} •{% endunless %}
-        {% if post.draft %}Draft •{% endif %}
-        {% if post.hidden %}Patron Exclusive •{% endif %}
-        {% include read-time.html content=post.content %} read
-      </p>
-    </a>
-  {% endunless %}{% endunless %}{% endfor %}
-</blogroll> -->
-
-<!-- <p>
-  Filter by hashtag:
-  <a class="uno" href="/hashtag/dev">#dev</a>
-  <a class="uno" href="/hashtag/design">#design</a>
-  <a class="uno" href="/hashtag/talks">#talks</a>
-  <a class="uno" href="/hashtag/guides">#guides</a>
- <a class="uno" href="/hashtag/transit">#transit</a>
-</p> -->
-
-<p>
-  <strong>There's more:</strong> check out my extended <a href="/websites" class="uno">🌎 websites</a> and <a class="uno" href="https://dribbble.com/pixelyunicorn" target="_blank" rel="noreferrer"><img role="presentation" src="https://cdn.glitch.com/2d246102-8341-4166-a220-b39d607c9218/icon-dribbble.svg" height="14" width="14" /> design</a> portfolios!
-</p>
+<h2>
+  <strong>There's more:</strong> check out my <a href="https://github.com/{{ site.github }}" target="_blank" rel="noreferrer" class="uno">{% include icons/github_small.svg size="64" %} GitHub</a>!
+</h2>
 
 <hr>
 
 <h2 id="about">
-  {% include icons/emoji.svg size="38" %}
-  Here's a lil' <yeet>about me:</yeet>
+  {% include icons/sticker_welcome2.svg size="8" %}
+  Here's something <yeet>about me:</yeet>
 </h2>
 
 <p>
-  Nice to meet you!! I'm Melody: 🍵 sparkly tea witch, 🚆 transit nerd, 🌮 taco advocate, and 🦄 web unicorn. My pronouns are <a class="uno" href="/they">plural they/them</a>. ✨
+  Nice to meet you!! I'm GalliumWang: an undergraduate in ZJUT majoring in cs. I'm interested in frontend developement,software engineering and network. ✨
+  <br>
+  Nowadays I'm mainly learining frontend developement,also with effort on network,java,algorithm,backend developement,etc.
 </p>
 
 <p>
   You can find me on
-  <a class="uno" href="https://twitter.com/pixelyunicorn" target="_blank" rel="noreferrer"><img role="presentation" src="https://cdn.glitch.com/2d246102-8341-4166-a220-b39d607c9218/icon-twitter.svg" height="14" width="14" /> Twitter</a>,
-  <a class="uno" href="https://dribbble.com/pixelyunicorn" target="_blank" rel="noreferrer"><img role="presentation" src="https://cdn.glitch.com/2d246102-8341-4166-a220-b39d607c9218/icon-dribbble.svg" height="14" width="14" /> Dribbble</a>,
-  <a class="uno" href="https://twitch.tv/pixelysquid" target="_blank" rel="noreferrer"><img role="presentation" src="https://static.twitchcdn.net/assets/favicon-32-d6025c14e900565d6177.png" height="14" width="14" /> Twitch</a>, and
-  <a class="uno" href="https://github.com/pixelyunicorn" target="_blank" rel="noreferrer"><img role="presentation" src="https://cdn.glitch.com/2d246102-8341-4166-a220-b39d607c9218/icon-github-000.svg" class="visible-theme-light" height="14" width="14" /><img role="presentation" src="https://cdn.glitch.com/2d246102-8341-4166-a220-b39d607c9218/icon-github-fff.svg" class="visible-theme-dark" height="14" width="14" /> GitHub</a>.
+  <a class="uno" href="https://github.com/{{ site.github }}" target="_blank" rel="noreferrer"><img role="presentation" src="https://cdn.glitch.com/2d246102-8341-4166-a220-b39d607c9218/icon-github-fff.svg" class="visible-theme-dark" height="14" width="14" /> GitHub</a>.
+  <a class="uno" href="https://t.me/GalliumWang" target="_blank" rel="noreferrer"><img role="presentation" src="./media/telegram.svg" height="14" width="14" /> Telegram</a>,
+  <br>
+  <img role="presentation" src="./media/wechat.png" height="14" width="14" /> WeChat:GalliumWang,
+  or send email to <a class="uno" href="mailto:webmaster@example.com" target="_blank" rel="noreferrer"><img role="presentation" src="./media/gmail.png" height="14" width="14" /> galliumwang199@gmail.com</a>
 </p>
 
-<p>
-  Love what I do? Support me thru 
-  <a class="uno" href="https://cash.app/$pixely" target="_blank" rel="noreferrer">Cashapp</a>,
-  <a class="uno" href="https://ko-fi.com/pixely" target="_blank" rel="noreferrer">Ko-Fi</a>,
-  or <a class="uno" href="https://patreon.com/madebymelody" target="_blank" rel="noreferrer">Patreon</a>!
-  <br>
-  I also got an <a class="uno" href="https://www.amazon.com/hz/wishlist/ls/1WZCG3ZSOCGUR" target="_blank" rel="noreferrer">Amazon Wish List</a>. Your support means a lot to me! 💜
-</p> 
-
 <h2>
-  {% include icons/briefcase.svg size="38" %}
-  Let's build something <yeet>cool</yeet> together!
+  <img src="./media/streetfight.png" style="height:100px">
+  I'm also a <yeet>FTG</yeet> player!
 </h2>
 
 <p>
-  You can keep track of my availability, what I'm working on, and events I'll attending on my Notion page:
+  Specializing in Tekken 7 & Street Fight 5,my main charactor is Kazumi and Chunli.PSN profile below.
 </p>
 
 <p>
-  <a href="https://notion.melody.dev/" class="button uno" target="_blank" rel="noreferrer">📓 Melody on Notion →</a>
+  <a href="https://psnprofiles.com/GalliumWang" class="button uno" target="_blank" rel="noreferrer">{% include icons/psn_small.svg size="64" %} GalliumWang on PSN →</a>
 </p>
+
+<a href="https://psnprofiles.com/GalliumWang"><img src="https://card.psnprofiles.com/1/GalliumWang.png" border="0"></a>
+
 
 <hr>
 
