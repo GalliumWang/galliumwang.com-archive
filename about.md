@@ -1,35 +1,24 @@
 ---
-title: "plural they/them"
-accent: purple
+title: "About"
+accent: red
 ---
 
-## {% include icons/welcome.svg size="38" %} I'm <yeet>Melody,</yeet> one of many in this brain!
+## {% include icons/welcome.svg size="38" %} 关于此站
 
-Here are some example sentences using my **plural they/them** pronouns, from <a href="http://pronoun.is/they/them" class="uno" target="_blank" rel="noreferrer">pronoun.is</a>:
+大概三月中旬的时候，在 <a href="https://t.me/NewlearnerGroup" class="uno" target="_blank" rel="noreferrer">Newlearner</a>看到了这个开源博客的推荐<a href="https://github.com/pixelyunicorn/melody.dev" class="uno" target="_blank" rel="noreferrer">melody.dev</a>,之前一直没有搭建过个人博客，一是怕个人站点维护麻烦、二是觉得写博客这种事情难以坚持，时间久了容易咕咕咕。恰逢这段时间开始了暑期实习的投递，便打算尝试一下自建博客，于是就有了这一个网站。
 
-- **They** went to the park.
-
-- I went with **them**.
-
-- **They** brought **their** frisbee.
-
-- At least I think it was **theirs**.
-
-- **They** threw the frisbee to **themselves**.
 
 ---
 
-## {% include icons/member-add.svg size="38" %} <yeet>Plural!?</yeet>
+## {% include icons/member-add.svg size="38" %} <yeet>今后的博文计划</yeet>
 
-Yep, there's more than one of us in this brain! This is really hard for us to put into words, so I highly reccomend reading <a href="https://freyasspirit.com/plurality-playbook/" class="uno" target="_blank" rel="noreferrer">Google's Plurality Playbook</a> for context on understanding dissociative disorders, as well as plurality as a whole. Instead of assigning names to this system, we'll try to identify ourselves w/ emoji wherever feasible:
+之前没有博客时，各种学习、编程与开发过程中遇到的的问题与解决经历、以及完成的项目等等，都会写在evernote中以备之后回顾参考，接下来也许会在有空的时候把整理好的各种笔记、文章、issue/solution等放到博客里面📔,方向主要集中在
 
-- —✨, the communicator and vessel (plural they/them)
-- —🧙‍♀️, the magical nerd, v passionate (she/her)
-- —🦊, the skilled vixen, wants fluffy tail (vi/vim)
-- —🐙, the slightly horny gal (she/her)
-- —🌵, the foodie, decision maker, non-verbal (they/them)
-
-I go into a bit more detail in this <a href="https://twitter.com/pixelyunicorn/status/1095153748354117632" class="uno" target="_blank" rel="noreferrer">Twitter thread</a>. (I will still mostly refer to myself using "I", however "we" will be used in contexts in appropriate.)
+- 所参与项目的介绍、展示以及具体过程、碰到的问题以及对应解决方案等;
+- 算法题目的write up;
+- 各种软件、工具的推荐、使用经历与心得;
+- 编程、技术等方面的实践经验,以及优秀blog推荐;
+- 其他各种感兴趣的东西👀
 
 ---
 
