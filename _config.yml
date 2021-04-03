@@ -10,6 +10,7 @@ google-analytics:
 github: "GalliumWang"
 branch: "glitch"
 glitch: "melody"
+github_source: "pixelyunicorn"
 
 # Rubygems
 # (The ones used for this site breaks GitHub Pages)
