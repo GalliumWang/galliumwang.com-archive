@@ -12,6 +12,7 @@ feature:
   height: 10
   image: feature.png
 image: https://cdn.glitch.com/d3e253ff-871d-442c-988d-a70ce0de1dc3/spooky-electron-meta-preview.png
+hidden: true
 ---
 
 Here's a fun talk I gave at **BrooklynJS October 2018** about simple pranks you can pull off with Electron.js, a javascript package that lets you run webpages as cross-platform desktop apps! ⚡️👻⚡️

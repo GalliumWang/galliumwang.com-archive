@@ -10,6 +10,7 @@ tile:
 image: https://cdn.glitch.com/d3e253ff-871d-442c-988d-a70ce0de1dc3/first-website-meta-preview.png
 redirect_from: /website
 draft: true
+hidden: true
 ---
 
 Hello!

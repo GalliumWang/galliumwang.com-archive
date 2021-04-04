@@ -13,6 +13,7 @@ feature:
   image: feature.svg
 # image: meta-preview.png
 draft: true
+hidden: true
 ---
 
 A modern wand for modern witches. 🧙‍♀️

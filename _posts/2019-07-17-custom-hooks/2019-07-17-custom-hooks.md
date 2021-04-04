@@ -15,6 +15,7 @@ feature:
   image: feature.svg
 image: https://cdn.glitch.com/d3e253ff-871d-442c-988d-a70ce0de1dc3/custom-hooks-meta-preview.png
 redirect_from: /react
+hidden: true
 ---
 
 Here's a lightning talk I gave at **Reactadelphia July 2019** about when, why, and how to use custom react hooks (without showing a single line of code!) 🎣

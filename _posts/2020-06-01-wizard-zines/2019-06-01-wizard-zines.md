@@ -12,6 +12,7 @@ feature:
   height: 11
   image: feature.svg
 image: https://cdn.glitch.com/d3e253ff-871d-442c-988d-a70ce0de1dc3/wizard-zines-meta-preview.png
+hidden: true
 ---
 
 I built a modern library of magic where books fly off the shelves and knowledge is just a few clicks away, for tech zine writer [Julia Evans](https://twitter.com/b0rk)! Check it out at [wizardzines.com](http://wizardzines.com)! 📚️✨

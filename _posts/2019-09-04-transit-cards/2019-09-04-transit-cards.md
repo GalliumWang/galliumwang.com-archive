@@ -13,6 +13,7 @@ feature:
   image: feature.svg
 image: https://cdn.glitch.com/d3e253ff-871d-442c-988d-a70ce0de1dc3/transit-cards-meta-preview.png
 assets: https://cdn.glitch.com/2d246102-8341-4166-a220-b39d607c9218/
+hidden: true
 ---
 
 Here's a talk I gave at **Transit Techies NYC #10** about some of the cool things I am working on in the realm of transit. 💳📲
