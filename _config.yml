@@ -1,7 +1,7 @@
 # Metadata
-title: "Melody Starling!"
+title: "Gallium Wang's Site"
 description: "I’m an interactive web developer, designer, and storyteller. Here's something interesting I worked on!"
-keywords: ["web developer", "designer", "jekyll"]
+keywords: ["programming", "jekyll","blog","GalliumWang"]
 domain: "https://galliumwang.com"
 
 # Third party services
@@ -9,8 +9,7 @@ domain: "https://galliumwang.com"
 google-analytics:
 github: "GalliumWang"
 branch: "glitch"
-glitch: "melody"
-github_source: "pixelyunicorn"
+github_source: "GalliumWang"
 
 # Rubygems
 # (The ones used for this site breaks GitHub Pages)

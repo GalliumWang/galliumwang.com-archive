@@ -1,11 +1,20 @@
 ---
 title: "About"
-accent: red
+accent: orange
 ---
 
 ## {% include icons/welcome.svg size="38" %} 关于此站
 
-大概三月中旬的时候，在 <a href="https://t.me/NewlearnerGroup" class="uno" target="_blank" rel="noreferrer">Newlearner</a>看到了这个开源博客的推荐<a href="https://github.com/pixelyunicorn/melody.dev" class="uno" target="_blank" rel="noreferrer">melody.dev</a>,之前一直没有搭建过个人博客，一是怕个人站点维护麻烦、二是觉得写博客这种事情难以坚持，时间久了容易咕咕咕。恰逢这段时间开始了暑期实习的投递，便打算尝试一下自建博客，于是就有了这一个网站。
+大概三月中旬的时候，在 <a href="https://t.me/NewlearnerGroup" class="uno" target="_blank" rel="noreferrer">Newlearner</a>看到了这个开源博客的推荐<a href="https://github.com/{{ site.github_source }}/melody.dev" target="_blank" rel="noreferrer" class="uno"><img role="presentation" src="https://cdn.glitch.com/2d246102-8341-4166-a220-b39d607c9218/icon-github-000.svg" class="visible-theme-light" height="14" width="14" /><img role="presentation" src="https://cdn.glitch.com/2d246102-8341-4166-a220-b39d607c9218/icon-github-fff.svg" class="visible-theme-dark" height="14" width="14" /> melody.dev</a>，之前一直没有搭建过个人博客，一是怕个人站点维护麻烦、二是觉得写博客这种事情难以坚持，时间久了容易咕咕咕。恰逢这段时间开始了暑期实习的投递，便打算尝试一下自建博客，于是就有了这一个网站。
+
+
+---
+## 💻 本站部署
+本站源码从<a href="https://github.com/{{ site.github_source }}/melody.dev" target="_blank" rel="noreferrer" class="uno"><img role="presentation" src="https://cdn.glitch.com/2d246102-8341-4166-a220-b39d607c9218/icon-github-000.svg" class="visible-theme-light" height="14" width="14" /><img role="presentation" src="https://cdn.glitch.com/2d246102-8341-4166-a220-b39d607c9218/icon-github-fff.svg" class="visible-theme-dark" height="14" width="14" /> melody.dev</a> fork而来
+，修改后使用 aws amplify 服务与fork仓库关联，并认证绑定域名
+
+> 已知Issue: 
+- [hidden post would show in previous/next post in post page](https://github.com/pixelyunicorn/melody.dev/issues/4#issue-849625828)
 
 
 ---

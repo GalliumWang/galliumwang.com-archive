@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="https://cdn.glitch.com/cac749b9-a651-4b28-900e-eab82ca322d7/squiddo.png?1551146813375">
+    <link rel="shortcut icon" href="/media/terriermon_43.png">
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
@@ -27,17 +27,6 @@
     {% endif %}{% if page.date %}
     <meta property="og:article:author" content="Melody Starling">
     <meta property="og:article:published_time" content="{{ page.date }}">
-    {% endif %}
-
-    <!-- @jack card -->
-    <meta name="twitter:card" content="{% if page.image %}summary_large_image{% else %}summary{% endif %}">
-    <meta name="twitter:site" content="@pixelyunicorn">
-    <meta name="twitter:creator" content="@pixelyunicorn">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}">
-    {% if page.image %}
-    <meta name="twitter:image:src" content="{{ page.image }}">
-    <meta name="twitter:image:alt" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     {% endif %}
   </head>
   <body class="{% if page.slug %}page-{{ page.slug }} {% endif %}{% if page.accent %}accent-{{ page.accent }} {% endif %}">

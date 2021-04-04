@@ -1,10 +1,10 @@
 ---
-title: Visual Intro to Custom React Hooks
+title: My Leetcode solution
 excerpt: "Here's a lightning talk I gave at Reactadelphia on when, why, and how to use custom react hooks (without showing a single line of code!)"
-tags: dev reactjs talks
+tags: leetcode algorithm
 accent: blue
 tile:
-  order: 2
+  order: 5
   width: 5
   height: 10
   top: 2
@@ -15,7 +15,7 @@ feature:
   image: feature.svg
 image: https://cdn.glitch.com/d3e253ff-871d-442c-988d-a70ce0de1dc3/custom-hooks-meta-preview.png
 redirect_from: /react
-hidden: true
+draft: true
 ---
 
 Here's a lightning talk I gave at **Reactadelphia July 2019** about when, why, and how to use custom react hooks (without showing a single line of code!) 🎣
