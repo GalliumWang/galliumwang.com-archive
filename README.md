@@ -1,2 +1,2 @@
 # [melody.dev](https://melody.dev/)
-![](/media/terriermon_43.png =50x)
+<img src="/media/terriermon_66.png" width="100"/>
