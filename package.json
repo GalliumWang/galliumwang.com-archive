@@ -17,5 +17,13 @@
   "repository": {
     "url": "https://glitch.com/edit/#!/jekyll-starter"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
