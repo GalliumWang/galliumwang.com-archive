@@ -4,6 +4,8 @@
   display: inline-block;
   text-decoration: none;
   padding: 0 .5ch;
+  margin: 0.25em 0 0em;
+  line-height: 1.5em;
   &:hover {
     filter: brightness(1.5) hue-rotate(-15deg);
   }
