@@ -9,11 +9,11 @@
   }
 }
 
-  .uno {
-    background-color: rgba($uno, .2);
-    color: darken($uno, 10%);
-    border-color: $uno;
-  }
+.uno {
+  background-color: rgba($uno, .2);
+  color: darken($uno, 10%);
+  border-color: $uno;
+}
 
 @include color-scheme(dark) {
   .uno {
