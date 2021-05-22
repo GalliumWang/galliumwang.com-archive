@@ -132,3 +132,16 @@ body, body.force-theme-light {
     display: inherit;
   }
 }
+
+//TODO: move to specific scss file for RWD
+@media screen and (max-width: 600px) {
+  #welcome{
+    margin-right: 70px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #welcome{
+    margin-right: 220px;
+  }
+}
