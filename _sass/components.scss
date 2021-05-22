@@ -72,18 +72,6 @@ ul.events-list {
   }
 }
 
-// _includes/toggle-theme.html
-.toggle-themes {
-  display: inline-block;
-  position: absolute;
-  top: 1.25rem;
-  right: calc(40px - .5rem); // .5rem;
-  text-align: right;
-  @include media-query($on-phone) {
-    top: .5rem;
-    right: .5rem;
-  }
-}
 body {
   .toggle-theme-light {
     display: none;
