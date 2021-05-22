@@ -1,0 +1,15 @@
+{
+  "short_name": "Gallium Wang",
+  "name": "Gallium Wang",
+  "icons": [
+    {
+    "src":"/PWA/icon.png",
+    "sizes": "64x64",
+    "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FBAF00",
+  "theme_color": "#FBAF00",
+  "display": "standalone"
+}
