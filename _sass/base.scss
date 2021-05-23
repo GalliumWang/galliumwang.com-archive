@@ -133,12 +133,20 @@ body, body.force-theme-light {
   }
 }
 
-//TODO: move to specific scss file for RWD
 @media screen and (max-width: 600px) {
   #welcome{
     margin-right: 70px;
   }
+}
 
+@media screen and (min-width: 600px) {
+  #welcome{
+    margin-right: 220px;
+  }
+}
+
+//TODO: move to specific scss file for RWD
+@media screen and (max-width: 600px) {
   // _includes/toggle-theme.html
   .toggle-themes {
     display: inline-block;
@@ -153,10 +161,6 @@ body, body.force-theme-light {
 }
 
 @media screen and (min-width: 600px) {
-  #welcome{
-    margin-right: 220px;
-  }
-
   // _includes/toggle-theme.html
   .toggle-themes {
     display: inline-block;
