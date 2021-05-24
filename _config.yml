@@ -1,15 +1,15 @@
 # Metadata
-title: "Gallium Wang's Site"
-description: "I’m an interactive web developer, designer, and storyteller. Here's something interesting I worked on!"
-keywords: ["programming", "jekyll","blog","GalliumWang"]
+title: "Gallium Wang"
+description: "I’m Gallium Wang,a Computer science student from Zhejiang University of Technology!This is my personal site."
+keywords: ["programming", "jekyll","blog","Gallium Wang","cs"]
 domain: "https://galliumwang.com"
 
 # Third party services
-# (Anything you put here will be public!)
 google-analytics:
 github: "GalliumWang"
 branch: "glitch"
-github_source: "GalliumWang"
+github_source: "GalliumWang" 
+# TODO: update
 
 # Rubygems
 # (The ones used for this site breaks GitHub Pages)
