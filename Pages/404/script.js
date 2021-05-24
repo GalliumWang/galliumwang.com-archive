@@ -151,3 +151,7 @@ window.addEventListener("click",(event)=>{
     delay: 0.2,
     ease: Sine.easeIn });
 })
+
+document.querySelector(".toggle-themes").addEventListener('click',(e)=>{
+  e.stopPropagation();
+})
